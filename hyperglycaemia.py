@@ -181,7 +181,7 @@ print(df.head())
 print(f"Final dataset size: {df.shape}")
 print(df["severity_class"].value_counts(normalize=True))
 
-import matplotlib.pyplot as plt
+
 import seaborn as sns
 
 # Plot histograms for numeric features
