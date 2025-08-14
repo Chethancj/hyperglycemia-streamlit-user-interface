@@ -1,0 +1,7 @@
+streamlit
+pyngrok
+joblib
+tensorflow
+scikit-learn
+pandas
+numpy
