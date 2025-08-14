@@ -882,7 +882,6 @@ plt.show()
 
 
 
-!pip install streamlit pyngrok joblib tensorflow
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
