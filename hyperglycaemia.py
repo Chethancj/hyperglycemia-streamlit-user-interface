@@ -1049,7 +1049,7 @@ public_url = ngrok.connect(addr=8501)
 print(f" App running at: {public_url}")
 
 # Run the Streamlit app in the background
-streamlit run app.py --server.port 8501 &>/dev/null&
+
 
 from graphviz import Digraph
 
