@@ -75,3 +75,7 @@ if submitted:
         "Severe Hyperglycemia": "Seek medical attention immediately."
     }
     st.info(recommendations[class_labels[prediction]])
+    import joblib
+
+joblib.dump(model, "logistic_regression_model.pkl")
+joblib.dump(scaler, "scaler.pkl")
