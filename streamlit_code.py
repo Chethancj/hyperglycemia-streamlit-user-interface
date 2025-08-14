@@ -587,20 +587,5 @@ print(colored(" Saved model_accuracy_comparison.xlsx", "cyan"))
 # 
 #             st.plotly_chart(fig, use_container_width=True)
 
-from pyngrok import ngrok
 
-# Close any previous tunnels
-ngrok.kill()
-
-# Set ngrok authtoken
-# Replace 'YOUR_AUTHTOKEN' with your actual ngrok authtoken
-# You can get one from https://dashboard.ngrok.com/get-started/your-authtoken
-ngrok.set_auth_token("30hlm01d4g13zGqCq0K8Drq6BHL_4TFHLeqvpMv3kfgKjwkmB")
-
-
-# Open new tunnel for Streamlit
-public_url = ngrok.connect(addr=8501)
-print(f" App running at: {public_url}")
-
-# Run the Streamlit app in the background
 
