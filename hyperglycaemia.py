@@ -182,7 +182,7 @@ print(f"Final dataset size: {df.shape}")
 print(df["severity_class"].value_counts(normalize=True))
 
 
-import seaborn as sns
+
 
 # Plot histograms for numeric features
 numeric_features = ['age', 'bmi', 'glucose', 'hba1c', 'insulin', 'activity', 'carbs', 'duration_since_dx', 'sleep_hours', 'alcohol_units_week', 'avg_glucose_7d', 'time_since_last_insulin', 'hyper_events_past_week']
