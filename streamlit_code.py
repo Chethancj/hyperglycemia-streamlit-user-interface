@@ -604,7 +604,7 @@ import joblib
 joblib.dump(scaler, "LSTM_scaler.pkl")
 print(colored(" Scaler saved as LSTM_scaler.pkl", "magenta", attrs=["bold"]))
 
-!pip install streamlit pyngrok joblib tensorflow
+
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
